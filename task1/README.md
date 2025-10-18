@@ -15,7 +15,7 @@ The slowest among all, due to the heap allocation and deallocation being more ex
 The same operations are done faster on the stack, where only the stack pointer should be changed. <br>
 
 However, when running the test code, I have observed that statically declaring array is the slowest option. <br>
-The results are the following:<br>
-Time of execution for statically declared array is 19.309569 seconds<br>
-Time of execution for array on stack is 19.165923 seconds<br>
-Time of execution for array on heap is 19.266719 seconds<br>
+The results are the following:<br><br>
+Time of execution for statically declared array is **19.309569 seconds**<br><br>
+Time of execution for array on stack is **19.165923 seconds**<br><br>
+Time of execution for array on heap is **19.266719 seconds**<br><br>
